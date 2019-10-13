@@ -1,0 +1,62 @@
+.container-body {
+    margin : 10px auto;
+    width: 950px;
+    
+}
+
+.container-wrap {
+    width: 950px;
+    margin: 10px auto;
+    height: 500px;
+    overflow: auto;
+    
+}
+
+.part1 {
+    min-height: 80px;
+    position: relative;
+}
+
+.part2 {
+    display: inline-block;
+    margin: 20px;
+    width: 70px;
+    height: 70px;
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+
+.letterColor {
+    color: white;
+}
+
+button {
+    position: fixed;
+    display: block;
+    text-align: center;
+    top: 120px;
+    left: 650px;
+    padding: 10px 30px;
+    background: rebeccapurple;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 0.7;
+}
+
+button + p {
+    position: absolute;
+    font-size: 20px;
+    text-transform: uppercase;
+    left: 60px;
+    top: 10px;
+}
+
+button:hover{
+    opacity:1;
+}
