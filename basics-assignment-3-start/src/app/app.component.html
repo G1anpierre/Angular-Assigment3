@@ -21,11 +21,11 @@
   <div>
     
       <div class="part2"
-      *ngFor = "let info of clicks"
-      [ngStyle] = "{backgroundColor: info >= 5 ? 'blue': 'transparent'} "
+      *ngFor = "let info of clicks; let i = index" 
+      
 
-      [ngClass] = "{letterColor: info >= 5 ? true : false}"
-      > {{ info }} click!</div>
+      [ngClass] = "onChangeColor(info)"
+      > {{ index }} click!</div>
   
   </div>
 </div>
